@@ -1,0 +1,9 @@
+#!usr\bin\python
+def sum_arrgs(*arrgs):
+	total=sum(arrgs)
+	return total
+print(sum_arrgs(1,2,3))
+print(sum_arrgs(10,20,30,40))
+print(sum_arrgs( ))
+print(sum_arrgs(5.5,4.5,-10))
+sum_arrgs=[[1,2,3],[10,20,30],[0],[55,4.5,-10]]

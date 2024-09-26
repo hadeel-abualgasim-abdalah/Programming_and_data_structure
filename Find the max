@@ -1,0 +1,9 @@
+#!usr\bin\python
+def max_integer(mylist=[ ]):
+	maximum=0
+	for num in mylist:
+		if num>maximum:
+		    maximum=num
+	return maximum
+max_value=print(max_integer([1,90,2,13,34,5,-13,3]))
+ 
